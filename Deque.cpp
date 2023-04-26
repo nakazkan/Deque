@@ -372,7 +372,7 @@ class Deque {
   }
 
   void insert(const iterator &other, const T &value) {
-    Deque<T> new_d;//
+    Deque<T> new_d;
     for (auto it = begin(); it != other; ++it) {
       new_d.push_back(*it);
     }
